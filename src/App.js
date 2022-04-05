@@ -18,6 +18,8 @@ import "./CSSExapme.css";
 import { buildQueries } from "@testing-library/react";
 import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
+import FragmentExample from "./components/FragmentExample";
+import FragmentWithShortHand from "./components/FragmentWithShortHand";
 
 
 function App() {
@@ -26,7 +28,10 @@ function App() {
   }
   return (
     <div className="App">
-    <LifeCycleA/>
+
+    <FragmentWithShortHand/>
+    {/* <FragmentExample/> */}
+    {/* <LifeCycleA/> */}
     {/*<Form/>*/}
     {/*<h1 className="heading">Hello App</h1>
     <h1 style={stylesheet}>Inline</h1>

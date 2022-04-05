@@ -13,14 +13,14 @@ export class Form extends Component {
     this.setState({
       username: e.target.value,
     });
-    console.log(this.state.username);
+   
   };
 
   handleAddressChange = (e) => {
     this.setState({
       address: e.target.value,
     });
-    console.log(this.state.address);
+    
   };
   
 
@@ -28,11 +28,11 @@ export class Form extends Component {
     this.setState({
       car: e.target.value,
     });
-    console.log(this.state.car);
+  
   };
 
   handleSubmitChange = (e) => {
-      //console.log('Mahi');
+      
     e.preventDefault();
     alert(`${this.state.username}${this.state.address} ${this.state.car}`);
   };
