@@ -16,6 +16,8 @@ import ListRendering from "./components/ListRendering";
 import CSSExample from "./components/CSSExample";
 import "./CSSExapme.css";
 import { buildQueries } from "@testing-library/react";
+import Form from "./components/Form";
+import LifeCycleA from "./components/LifeCycleA";
 
 
 function App() {
@@ -24,10 +26,12 @@ function App() {
   }
   return (
     <div className="App">
-    <h1 className="heading">Hello App</h1>
+    <LifeCycleA/>
+    {/*<Form/>*/}
+    {/*<h1 className="heading">Hello App</h1>
     <h1 style={stylesheet}>Inline</h1>
       <Greet />
-      <CSSExample/>
+  <CSSExample/>*/}
       {/* <ListRendering/> */}
       {/* <ConditionalRendering/> */}
       {/* <ParentComponent/> */}
