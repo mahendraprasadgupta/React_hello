@@ -20,6 +20,7 @@ import Form from "./components/Form";
 import LifeCycleA from "./components/LifeCycleA";
 import FragmentExample from "./components/FragmentExample";
 import FragmentWithShortHand from "./components/FragmentWithShortHand";
+import ParentCom from "./components/ParentCom";
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
   return (
     <div className="App">
 
-    <FragmentWithShortHand/>
+    <ParentCom/>
+    {/* <FragmentWithShortHand/> */}
     {/* <FragmentExample/> */}
     {/* <LifeCycleA/> */}
     {/*<Form/>*/}
