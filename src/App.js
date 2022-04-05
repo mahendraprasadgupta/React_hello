@@ -22,39 +22,34 @@ import FragmentExample from "./components/FragmentExample";
 import FragmentWithShortHand from "./components/FragmentWithShortHand";
 import ParentCom from "./components/ParentCom";
 
-
 function App() {
   const stylesheet = {
-    color:'blue'
-  }
+    color: "blue",
+  };
   return (
     <div className="App">
-
-    <ParentCom/>
-    {/* <FragmentWithShortHand/> */}
-    {/* <FragmentExample/> */}
-    {/* <LifeCycleA/> */}
-    {/*<Form/>*/}
-    {/*<h1 className="heading">Hello App</h1>
-    <h1 style={stylesheet}>Inline</h1>
-      <Greet />
-  <CSSExample/>*/}
+      
+      {/* <ParentCom/> */}
+      {/* <FragmentWithShortHand/> */}
+      {/* <FragmentExample/> */}
+      {/* <LifeCycleA/> */}
+      {/* <Form/> */}
+      {/* <h1 className="heading">Hello App</h1> */}
+      {/* <h1 style={stylesheet}>Inline</h1> */}
+      {/* <Greet /> */}
+      {/* <CSSExample/> */}
       {/* <ListRendering/> */}
       {/* <ConditionalRendering/> */}
       {/* <ParentComponent/> */}
       {/* <FunctionClick/> */}
       {/* <EventBinding/> */}
-      {/*<ClassClick/>*/}
-      {/*
-      <Welcome />
-      <Hello />
-      <User name="Mahendra">How are you and your faimly</User>
-      <Person name="Mahendra">How are you and your faimly</Person>
-      <StateExample/>
-      <Counter/>
-      */}
-
-      
+      {/* <ClassClick/> */}
+      {/* <Welcome /> */}
+      {/* <Hello /> */}
+      {/* <User name="Mahendra">How are you and your faimly</User> */}
+      {/* <Person name="Mahendra">How are you and your faimly</Person> */}
+      {/* <StateExample/> */}
+      {/* <Counter/> */}
     </div>
   );
 }
